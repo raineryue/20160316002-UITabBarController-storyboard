@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FriendsViewController.h
 //  20160316002-UITabBarController-storyboard
 //
 //  Created by Rainer on 16/3/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FriendsViewController : UITableViewController
 
 @end
-

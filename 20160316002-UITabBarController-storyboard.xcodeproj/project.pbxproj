@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		D531F30C1C99505200CB81EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F30B1C99505200CB81EC /* main.m */; };
 		D531F30F1C99505200CB81EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F30E1C99505200CB81EC /* AppDelegate.m */; };
-		D531F3121C99505200CB81EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F3111C99505200CB81EC /* ViewController.m */; };
+		D531F3121C99505200CB81EC /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F3111C99505200CB81EC /* MessageViewController.m */; };
 		D531F3151C99505200CB81EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D531F3131C99505200CB81EC /* Main.storyboard */; };
 		D531F3171C99505200CB81EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D531F3161C99505200CB81EC /* Assets.xcassets */; };
 		D531F31A1C99505200CB81EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D531F3181C99505200CB81EC /* LaunchScreen.storyboard */; };
 		D531F3251C99505200CB81EC /* _0160316002_UITabBarController_storyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F3241C99505200CB81EC /* _0160316002_UITabBarController_storyboardTests.m */; };
 		D531F3301C99505200CB81EC /* _0160316002_UITabBarController_storyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F32F1C99505200CB81EC /* _0160316002_UITabBarController_storyboardUITests.m */; };
+		D531F33F1C99536B00CB81EC /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F33E1C99536B00CB81EC /* FriendsViewController.m */; };
+		D531F3421C9953E600CB81EC /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D531F3411C9953E600CB81EC /* MeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,8 @@
 		D531F30B1C99505200CB81EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D531F30D1C99505200CB81EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D531F30E1C99505200CB81EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D531F3101C99505200CB81EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D531F3111C99505200CB81EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D531F3101C99505200CB81EC /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		D531F3111C99505200CB81EC /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 		D531F3141C99505200CB81EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D531F3161C99505200CB81EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D531F3191C99505200CB81EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		D531F32B1C99505200CB81EC /* 20160316002-UITabBarController-storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160316002-UITabBarController-storyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D531F32F1C99505200CB81EC /* _0160316002_UITabBarController_storyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160316002_UITabBarController_storyboardUITests.m; sourceTree = "<group>"; };
 		D531F3311C99505200CB81EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D531F33D1C99536B00CB81EC /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		D531F33E1C99536B00CB81EC /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		D531F3401C9953E600CB81EC /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		D531F3411C9953E600CB81EC /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,12 @@
 			children = (
 				D531F30D1C99505200CB81EC /* AppDelegate.h */,
 				D531F30E1C99505200CB81EC /* AppDelegate.m */,
-				D531F3101C99505200CB81EC /* ViewController.h */,
-				D531F3111C99505200CB81EC /* ViewController.m */,
+				D531F3101C99505200CB81EC /* MessageViewController.h */,
+				D531F3111C99505200CB81EC /* MessageViewController.m */,
+				D531F33D1C99536B00CB81EC /* FriendsViewController.h */,
+				D531F33E1C99536B00CB81EC /* FriendsViewController.m */,
+				D531F3401C9953E600CB81EC /* MeViewController.h */,
+				D531F3411C9953E600CB81EC /* MeViewController.m */,
 				D531F3131C99505200CB81EC /* Main.storyboard */,
 				D531F3161C99505200CB81EC /* Assets.xcassets */,
 				D531F3181C99505200CB81EC /* LaunchScreen.storyboard */,
@@ -270,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D531F3121C99505200CB81EC /* ViewController.m in Sources */,
+				D531F33F1C99536B00CB81EC /* FriendsViewController.m in Sources */,
+				D531F3121C99505200CB81EC /* MessageViewController.m in Sources */,
 				D531F30F1C99505200CB81EC /* AppDelegate.m in Sources */,
 				D531F30C1C99505200CB81EC /* main.m in Sources */,
+				D531F3421C9953E600CB81EC /* MeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
